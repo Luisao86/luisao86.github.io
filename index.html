@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luis Funes | Programador Web Fullstack</title>
+    <link rel="icon" href="./img/logo.ico">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- comienzo NAV  -->
+    <div data-aos="fade-down">
+        <nav class="navbar navbar-expand navbar-light bg-light">
+            <div data-aos="flip-left" data-aos-delay="200">
+                <img width="70" src="./img/logo.png" alt="LOGO">
+            </div>
+            <ul class="nav navbar-nav ms-auto">
+                <li class="nav-item active">
+                    <h5><a class="nav-link btn btn-primary" href="#info">Sobre Mi</a></h5>
+                </li>
+                <li class="nav-item mx-4">
+                    <h5><a class="nav-link btn btn-primary" href="./message/mensaje.html">Hablame</a></h5>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <!-- final NAV-->
+    <header data-aos="fade-up">
+        <div class="container" width="90vw">
+            <div class=" mt-5 d-flex justify-content-center " width="80vw">
+                <h1><strong><span>Desarrollador Web Fullstack en proceso </span></strong></h1><br>
+            </div>
+            <div class=" text-center mt-5" data-aos="flip-left" data-aos-delay="400">
+                <img src="./img/Avatar.png" alt="Avatar" width="200" class="">
+            </div>
+            <div class="container" data-aos="fade-down" data-aos-delay="200">
+                <div class="text-center">
+                    <img class="col-xs-6 col-lg-12 col-sm-9" src="./img/layer.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="wave">
+        <img src="./img/wave.svg" alt="wave">
+    </div>
+    <section id="info">
+        <div class="text-center d-flex justify-content-center">
+            <div class=" col-md-8 p-4" data-aos="fade-up">
+                <h2 class="text-light pt-0"><strong>Hola, mi nombre es Luis Funes.</strong></h2>
+                <br />
+                <h4 class="text-light pt-3 pb-5">Soy padre de una hija de 11 meses, actualmente estoy desempleado, el
+                    tiempo en mi anterior empleo lo he dedicado a la incorporación de conocimientos en programación, con
+                    lo cual obtuve mi <b>Diplomatura en Desarrollo Web Fullstack</b>, en la <strong>Universidad
+                        Tecnologica Nacional</strong> (U.T.N.). También adquirí conocimientos de forma autodidacta.</h4>
+            </div>
+        </div>
+    </section>
+    <section id="tecnologias">
+        <div class="container  hstack gap-2 text-center d-flex justify-content-evenly px-0">
+            <div data-aos="flip-right">
+                <img class="mt-2 p-4" src="./img/dev.svg" width="150" alt="">
+                <div class="card-body">
+                    <h4 class="card-title"><strong>Desarrollo</strong></h4>
+                    <p class="card-text mt-3"><strong>Leguajes que utilizo: </strong> </p>
+                </div>
+                <ul class="list-group list-group-flush mt-3">
+                    <li class="list-group-item pt-2"><strong>HTML</strong></li>
+                    <li class="list-group-item pt-2"><strong>CSS</strong></li>
+                    <li class="list-group-item pt-2"><strong>Javascript</strong></li>
+                    <li class="list-group-item pt-2"><strong>PHP</strong></li>
+                    <li class="list-group-item pt-2"><strong>SQL</strong></li>
+                    <li class="list-group-item pt-2"><strong>Git</strong></li>
+                </ul>
+            </div>
+            <div class="my-5" data-aos="flip-left">
+                <img width="150" class="mt-5 " src="./img/tools.svg" alt="">
+                <div class="card-body">
+                    <h4 class="card-title"><strong>Tools</strong></h4>
+                    <p class="card-text"><strong>Herramientas que utilizo: </strong></p>
+                </div>
+                <ul class="list-group list-group-flush mt-3">
+                    <li class="list-group-item pt-2"><strong>Bootstrap</strong></li>
+                    <li class="list-group-item pt-2"><strong>Laravel</strong></li>
+                    <li class="list-group-item pt-2"><strong>Github</strong></li>
+                    <li class="list-group-item pt-2"><strong>Nodejs</strong></li>
+                    <li class="list-group-item pt-2"><strong>MySQL</strong></li>
+                    <li class="list-group-item pt-2"><strong>Xampp</strong></li>
+                    <li class="list-group-item pt-2"><strong>Visual Studio Code</strong></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="proyects">
+        <div class="container d-flex justify-content-center mb-5">
+            <div id="titulo">
+                <h3><strong>Mis proyectos</strong></h3>
+            </div>
+        </div>
+
+        <!---------------------------------- COMIENZO DE CAROUSEL ----------------------------------------->
+
+        <div id="carouselExampleCaptions" class="carousel carousel-dark slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                    aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
+                    aria-label="Slide 6"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6"
+                    aria-label="Slide 7"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7"
+                    aria-label="Slide 8"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="img_carousel">
+                        <img src="img/captcha.png" class="d-block img_content" alt="captcha">
+                    </div>
+                    <div class="carousel-caption d-none d-md-block">
+                        <a class="a_btn"
+                            href="https://aprendiendofullstack.000webhostapp.com/captcha%20-finalizado-/index.php"
+                            target="_blank">
+                            <h5 class="img_btn">Ver</h5>
+                        </a>
+                        <div class="p_img_cont">
+                            <p class=" p_img">Un simple generador de Captcha realizado con HTML, CSS y PHP.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="img_carousel">
+                        <img src="img/botones.png" class="d-block img_content" alt="botones">
+                    </div>
+                    <div class="carousel-caption d-none d-md-block">
+                        <a class="a_btn"
+                            href="https://aprendiendofullstack.000webhostapp.com/Practica%20botones%20footer%20-Finalizado-/Botones-v1/index.html"
+                            target="_blank">
+                            <h5 class="img_btn">Ver</h5>
+                        </a>
+                        <div class="p_img_cont">
+                            <p class="p_img text-dark">Links footer realizados con HTML y CSS.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="img_carousel">
+                        <img src="img/listadetareas.png" class="d-block img_content" alt="Lista de tareas">
+                    </div>
+                    <div class="carousel-caption d-none d-md-block">
+                        <a class="a_btn"
+                            href="https://aprendiendofullstack.000webhostapp.com/lista%20de%20tareas%20-EN%20PROCESO-/lista/index.html"
+                            target="_blank">
+                            <h5 class="img_btn">Ver</h5>
+                        </a>
+                        <div class="p_img_cont">
+                            <p class="text-dark p_img">To do List realizada con HTML, CSS y JavaScript.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="img_carousel">
+                        <img src="img/clima.png" class="d-block img_content" alt="Lista de tareas">
+                    </div>
+                    <div class="carousel-caption d-none d-md-block">
+                        <a class="a_btn" href="https://aprendiendofullstack.000webhostapp.com/API%20clima/index.html"
+                            target="_blank">
+                            <h5 class="img_btn">Ver</h5>
+                        </a>
+                        <div class="p_img_cont">
+                            <p class=" p_img">Aplicacion de Clima consumiendo una API, con HTML, CSS y JavaScripts</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="img_carousel">
+                        <img src="img/chart.jpg" class="d-block img_content" alt="Lista de tareas">
+                    </div>
+                    <div class="carousel-caption d-none d-md-block">
+                        <a class="a_btn" href="https://aprendiendofullstack.000webhostapp.com/chart/index.html"
+                            target="_blank">
+                            <h5 class="img_btn">Ver</h5>
+                        </a>
+                        <div class="p_img_cont">
+                            <p class="text-dark p_img">Grafico Chart tipo bar,consumiendo API, realizado con HTML,
+                                JavaScript,
+                                PHP
+                                y MySQL</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="img_carousel">
+                        <img src="img/serendipia.jpg" class="d-block img_content" alt="Serendipia Web">
+                    </div>
+                    <div class="carousel-caption d-none d-md-block">
+                        <a class="a_btn" href="https://aprendiendofullstack.000webhostapp.com/serendipia/index.html"
+                            target="_blank">
+                            <h5 class="img_btn">Ver</h5>
+                        </a>
+                        <div class="p_img_cont">
+                            <p class="p_img">Pagina Web realizada con HTML, CSS, Bootstrap y JavaScript</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="img_carousel">
+                        <img src="img/phpMid.jpg" class="d-block img_content" alt="Serendipia Web">
+                    </div>
+                    <div class="carousel-caption d-none d-md-block">
+                        <a class="a_btn" href="https://aprendiendofullstack.000webhostapp.com/Final%20Curso%20PHP%20basico/index.php"
+                            target="_blank">
+                            <h5 class="img_btn">Ver</h5>
+                        </a>
+                        <div class="p_img_cont">
+                            <p class="p_img">Proyectos visto en el Curso PHP y MySQL - Nivel Medio</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="img_carousel">
+                        <img src="img/fondo.png" class="d-block img_content" alt="Lista de tareas">
+                    </div>
+                    <div class="carousel-caption d-none d-md-block d-flex align-items-center">
+                        <div class="container">
+                            <!-- <a href="" target=""> -->
+                            <!-- <h5>Ver Proyecto</h5> -->
+                            </a>
+                            <p class="text-light">Me encuentro finalizando un CRUD con HTML, CSS, Bootstrap,JavaScript,
+                                PHP y MySQL</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <!------------------------------------------- FIN CAROUSEL --------------------------------------------->
+    </section>
+
+    <div class="tot-footer" data-aos="fade-up">
+        <div>
+            <img src="./img/wave.svg" alt="wave">
+        </div>
+        <footer>
+            <div class="contenedor text-center text-light">
+                <div class="boton">
+                    <div class="icono">
+                        <i class="fa fa-linkedin"></i>
+                    </div>
+                    <a class="text-decoration-none" href="https://www.linkedin.com/in/luis-alberto-funes-943213125/"
+                        target="_blank"><span><strong>Linkedin</strong></span></a>
+                </div>
+                <div class="boton">
+                    <div class="icono">
+                        <i class="fa fa-github"></i>
+                    </div>
+                    <a class="text-decoration-none" href="https://github.com/Luisao86"
+                        target="_blank"><span><strong>Github</strong></span></a>
+                </div>
+            </div>
+    </div>
+    </footer>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+
+</body>
+
+</html>
